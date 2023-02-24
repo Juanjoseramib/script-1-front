@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* NavBar */
+.navbar-box {
+  background-color: #ebebeb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 88px;
+  width: 1258px;
+  margin-top: 1rem;
+}
+.heroe-logo {
+  width: 88px;
+  height: 88px;
+}
+
+.burguer-menu {
+  width: 57px;
+  height: 55px;
+}

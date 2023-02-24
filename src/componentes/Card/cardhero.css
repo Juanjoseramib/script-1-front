@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* card */
+.cont-card {
+  height: 317px;
+  width: 1258px;
+
+  display: flex;
+}
+.pink-bg {
+  z-index: 1;
+  position: relative;
+  top: 41px;
+  height: 265px;
+  width: 1258px;
+  border-radius: 6px;
+}
+.ninja-img {
+  z-index: 2;
+  height: 307px;
+  width: 277px;
+  position: relative;
+  top: 10px;
+  right: 1258px;
+}
+.poster-img {
+  z-index: 2;
+  height: 284px;
+  width: 180px;
+  position: relative;
+  top: 0px;
+  right: 1157px;
+}
+/* text card */
+.div-text-card {
+  z-index: 2;
+  width: 356px;
+  height: 106px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 10px;
+  top: 127px;
+  right: 1030px;
+}
+.card-tittle {
+  width: 356px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  color: white;
+}
+.text1 {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.text2 {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}

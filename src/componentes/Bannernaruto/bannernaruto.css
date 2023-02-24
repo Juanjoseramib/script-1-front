@@ -1,0 +1,58 @@
+/* Background naruto */
+.bg-naruto {
+  width: 1258px;
+  height: 551px;
+  border-radius: 6px;
+  margin-top: 26px;
+  display: flex;
+}
+.img-naruto {
+  width: 1258px;
+  height: 551px;
+  border-radius: 6px;
+}
+/* text bg */
+.div-text-naruto {
+  width: 1037px;
+  height: 199px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 234px;
+  right: 1150.37px;
+  gap: 15px;
+}
+.tittle-naruto {
+  width: 1037px;
+  height: 61px;
+  font-size: 64px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+.naruto-text1 {
+  width: 1037px;
+  height: 23px;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+.naruto-text2 {
+  width: 1037px;
+  height: 15px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+.button-naruto {
+  width: 240px;
+  height: 85px;
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 6px;
+  background: linear-gradient(#f9a8d4, #f472b6);
+  color: white;
+  border: none;
+}
