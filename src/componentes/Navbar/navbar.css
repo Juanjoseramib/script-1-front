@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* NavBar */
+.navbar-box {
+  background-color: #ebebeb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8.593%;
+  width: 87.361%;
+  margin-top: 1.367vh;
+}
+.heroe-logo {
+  width: 6.995;
+  height: 100%;
+}
+
+.burguer-menu {
+  width: 4.531;
+  height: 62.5%;
+}
+@media (max-width: 768px) {
+  .navbar-box {
+    background: none;
+    height: 6.2vh;
+    margin-top: 2.253vh;
+  }
+  .burguer-menu {
+    height: 100%;
+  }
+}
