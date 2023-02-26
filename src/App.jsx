@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 // import NavBar from "./componentes/Navbar/NavBar";
-import Hero from "./layouts/Hero";
+import Hero from "./componentes/Hero/Hero";
 
 function App() {
   return <Hero />;
