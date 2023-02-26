@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
 // import NavBar from "./componentes/Navbar/NavBar";
-import LayoutHero from "./layouts/LayoutHero";
+import Hero from "./layouts/Hero";
 
 function App() {
-  return <LayoutHero />;
+  return <Hero />;
 }
 
 export default App;
