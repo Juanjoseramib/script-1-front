@@ -1,15 +1,13 @@
 import React from "react";
 import "./cardhero.css";
-import Rectangle from "../../images/Rectangle.png";
-import ninjax from "../../images/ninjax.png";
-import posterx from "../../images/posterx.png";
+import Ninjax from "../../images/Ninjax.png";
+import Posterx from "../../images/Posterx.png";
 
 export default function CardHero() {
   return (
     <div className="cont-card">
-      <img src={Rectangle} className="pink-bg" alt="logo" />
-      <img src={ninjax} className="ninja-img" alt="logo" />
-      <img src={posterx} className="poster-img" alt="logo" />
+      <img src={Ninjax} className="ninja-img" alt="logo" />
+      <img src={Posterx} className="poster-img" alt="logo" />
       <div className="div-text-card">
         <p className="card-tittle">Trigun Stampede</p>
         <p className="text1">Manga</p>

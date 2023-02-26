@@ -5,60 +5,57 @@
 }
 /* card */
 .cont-card {
-  height: 317px;
-  width: 1258px;
-
-  display: flex;
-}
-.pink-bg {
-  z-index: 1;
-  position: relative;
-  top: 41px;
-  height: 265px;
-  width: 1258px;
+  width: 87.361vw;
+  height: 25.878vh;
+  background: linear-gradient(#f9a8d4, #f472b6);
   border-radius: 6px;
+  margin-top: 4.101vh;
 }
 .ninja-img {
-  z-index: 2;
-  height: 307px;
-  width: 277px;
   position: relative;
-  top: 10px;
-  right: 1258px;
+  width: 19.236vw;
+  height: 29.98vh;
+  bottom: 11.698%;
 }
 .poster-img {
-  z-index: 2;
-  height: 284px;
-  width: 180px;
   position: relative;
-  top: 0px;
-  right: 1157px;
+  width: 12.5vw;
+  height: 27.734vh;
+  left: 8.028%;
+  bottom: 23.773%;
+  border-radius: 6px;
 }
 /* text card */
 .div-text-card {
-  z-index: 2;
-  width: 356px;
-  height: 106px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   position: relative;
-  gap: 10px;
-  top: 127px;
-  right: 1030px;
+  width: 24.305vw;
+  gap: 0.976vh;
+  left: 47.56vw;
+  bottom: 23vh;
 }
 .card-tittle {
-  width: 356px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 24px;
+  width: 100%;
+  height: 22.641%;
   color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.34vh;
+  padding: none;
 }
 .text1 {
-  font-size: 12px;
+  font-size: 1.17vh;
+  font-family: "Montserrat", sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+}
+.text2 {
+  font-weight: 400;
+  font-size: 1.36vh;
   font-family: "Montserrat", sans-serif;
   color: white;
 }
-.text2 {
-  font-size: 14px;
-  font-family: "Montserrat", sans-serif;
-  color: white;
+@media (max-width: 768px) {
+  .cont-card {
+    display: none;
+  }
 }
