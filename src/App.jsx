@@ -1,10 +1,14 @@
 import React from "react";
 import "./App.css";
-// import NavBar from "./componentes/Navbar/NavBar";
-import Hero from "./componentes/Hero/Hero";
+import Register from "./componentes/Register/Register";
+// import Hero from "./componentes/Hero/Hero";
 
 function App() {
-  return <Hero />;
+  return (
+    <div>
+      <Register />
+    </div>
+  );
 }
 
 export default App;

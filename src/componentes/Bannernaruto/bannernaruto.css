@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: self-end;
-  background-image: url("../../images/Naruto.png");
+  background-image: url(/public/images/Naruto.png);
   background-size: cover;
   background-position: center;
 }

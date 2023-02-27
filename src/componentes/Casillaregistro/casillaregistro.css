@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.form {
+  width: 26.66vw;
+  height: 4.687vh;
+  background: none;
+  border-radius: 10px;
+}
+.form legend {
+  height: 1.464vh;
+  font-family: "Montserrat" sans-serif;
+  font-weight: 400;
+  font-size: 1.17vh;
+  background-clip: text;
+  color: #f9a8d4;
+  border-radius: 10px;
+  margin-left: 1.464vh;
+}
+.form input {
+  border: none;
+  background: none;
+  width: 92%;
+}

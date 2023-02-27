@@ -13,7 +13,7 @@
 }
 @media (max-width: 768px) {
   .body-box {
-    background-image: url(../../images/Naruto-bg.png);
+    background-image: url(/public/images/Naruto-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
