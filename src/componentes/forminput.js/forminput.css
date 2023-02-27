@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Form */
+.form-register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 33.88vw;
+  gap: 3.125vh;
+}
+.prof-icon {
+  width: 1.11vw;
+  height: 1.562vh;
+}
+.mail-icon {
+  width: 0.972vw;
+  height: 1.367vh;
+}
+.lock-icon {
+  width: 1.11vw;
+  height: 1.562vh;
+}
+.checkbox-form {
+  display: flex;
+  position: relative;
+  right: 7.5vw;
+}
+.checkbox-form label {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.171vh;
+  display: flex;
+  align-items: center;
+  color: #1f1f1f;
+  opacity: 0.5;
+}
+.sign-up {
+  width: 26.66vw;
+  height: 4.687vh;
+  background: linear-gradient(#f9a8d4, #f472b6);
+  box-shadow: 5px 5px rgb(244 179 51);
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.367vh;
+}
