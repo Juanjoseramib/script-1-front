@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import Register from "./componentes/Register/Register";
+import Index from "./componentes/Index/Index";
 // import Hero from "./componentes/Hero/Hero";
 
 function App() {
   return (
     <div>
-      <Register />
+      <Index />
     </div>
   );
 }
