@@ -3,7 +3,7 @@ import "./casillaregistro.css";
 
 export default function CasillaRegistro(props) {
   return (
-    <fieldset className="form">
+    <fieldset className="fieldset-form">
       <legend>{props.legend}</legend>
       <input
         ref={props.parentRef}

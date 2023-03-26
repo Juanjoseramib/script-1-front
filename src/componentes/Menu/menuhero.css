@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu-desplegable {
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20vh;
+  position: absolute;
+  top: 0vh;
+  left: 0vw;
+  background: linear-gradient(#f9a8d4, #f472b6);
+  width: 35vw;
+  height: 100vh;
+  gap: 2vh;
+}
+button {
+  width: 382px;
+  height: 48px;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  border: none;
+  color: #f472b6;
+}
+.close-icon {
+  height: 25%;
+}
+@media (max-width: 768px) {
+  .menu-desplegable {
+    width: 100vw;
+    height: 100vh;
+  }
+}

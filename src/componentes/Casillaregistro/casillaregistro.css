@@ -3,13 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-.form {
-  width: 26.66vw;
+.fieldset-form {
+  display: flex;
+  align-items: center;
+  width: 85.714%;
   height: 4.687vh;
   background: none;
   border-radius: 10px;
+  gap: 2%;
 }
-.form legend {
+.fieldset-form legend {
   height: 1.464vh;
   font-family: "Montserrat" sans-serif;
   font-weight: 400;
@@ -19,8 +22,10 @@
   border-radius: 10px;
   margin-left: 1.464vh;
 }
-.form input {
+.fieldset-form input {
   border: none;
   background: none;
-  width: 92%;
+  margin-top: 1%;
+  margin-left: 5%;
+  width: 85%;
 }

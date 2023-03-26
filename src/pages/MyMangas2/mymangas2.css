@@ -1,0 +1,40 @@
+.mangas-cards .title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8.789vh;
+    min-height: 62.89vh;
+    padding-top: 25.39vh;
+    padding-bottom: 17.18vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../images/mymangas_bg.png);
+    background-size: 100vw 62.89vh;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+
+.mangas-cards .title>h2{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95.19%;
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px){
+    .mangas-cards .title{
+        gap: 59px;
+        padding-bottom: 0;
+        padding-top: 91px;
+        height: 440px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../images/mangas-background.png);
+        background-size: 100vw 62.89vh;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+    }
+
+    .mangas-cards .title h2{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 95.19%;
+    }
+
+}
