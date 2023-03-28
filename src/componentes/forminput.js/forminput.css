@@ -9,21 +9,28 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 33.88vw;
+  width: 62.22%;
   gap: 3.125vh;
 }
 .prof-icon {
-  width: 1.11vw;
-  height: 1.562vh;
+  width: 4.166%;
+  height: 33.33%;
+  object-fit: contain;
+  margin-top: 1%;
 }
 .mail-icon {
-  width: 0.972vw;
-  height: 1.367vh;
+  width: 3.645%;
+  height: 29.166%;
+  object-fit: contain;
+  margin-top: 1%;
 }
 .lock-icon {
-  width: 1.11vw;
-  height: 1.562vh;
+  width: 4.166%;
+  height: 33.33%;
+  object-fit: contain;
+  margin-top: 1%;
 }
+/* Checkbox */
 .checkbox-form {
   display: flex;
   position: relative;
@@ -38,8 +45,9 @@
   color: #1f1f1f;
   opacity: 0.5;
 }
+/* Boton Sign up */
 .sign-up {
-  width: 26.66vw;
+  width: 85.714%;
   height: 4.687vh;
   background: linear-gradient(#f9a8d4, #f472b6);
   box-shadow: 5px 5px rgb(244 179 51);

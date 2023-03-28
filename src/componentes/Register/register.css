@@ -15,4 +15,10 @@
 .Town-img {
   height: 100%;
   width: 50vw;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  .cont-town {
+    display: none;
+  }
 }

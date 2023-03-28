@@ -16,6 +16,7 @@
   width: 19.236vw;
   height: 29.98vh;
   bottom: 11.698%;
+  object-fit: contain;
 }
 .poster-img {
   position: relative;
@@ -24,6 +25,7 @@
   left: 8.028%;
   bottom: 23.773%;
   border-radius: 6px;
+  object-fit: contain;
 }
 /* text card */
 .div-text-card {

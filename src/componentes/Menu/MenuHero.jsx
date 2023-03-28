@@ -1,23 +1,19 @@
 import React from "react";
+import "./menuhero.css";
 
-export default function MenuHero(props) {
+export default function MenuHero({ onClick }) {
   return (
     <div className="menu-desplegable">
-      {/* <a href="#" className="a-navbar">
-        Home
-      </a>
-      <a href="#" className="a-navbar">
-        Manga
-      </a>
-      <a href="#" className="a-navbar">
-        My Manga
-      </a>
-      <a href="#" className="a-navbar">
-        Favorites
-      </a>
-      <a href="#" className="a-navbar">
-        Logout
-      </a> */}
+      <div className="header-burguer-menu" onClick={onClick}>
+        <img
+          src="./images/Union.png"
+          className="close-icon"
+          alt="burguer-menu"
+        />
+      </div>
+      <button>Read</button>
+      <button>Log in</button>
+      <button>Register</button>
     </div>
   );
 }
